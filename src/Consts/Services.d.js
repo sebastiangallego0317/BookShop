@@ -14,19 +14,4 @@ export function Buy(items, callback) {
   });
   callback("Compra realizada con exito", null);
 
-  //   axios
-  //     .post(BASE_URL + "buy", items, {
-  //       headers: {
-  //         "Content-Type": "application/json",
-  //       },
-  //     })
-  //     .then((res) => {
-  //       if (res.status > 250) throw new Error(res.statusText);
-
-  //       res.json();
-  //     })
-  //     .then((data) => callback(data, null))
-  //     .catch((err) => {
-  //       callback(null, err);
-  //     });
 }
